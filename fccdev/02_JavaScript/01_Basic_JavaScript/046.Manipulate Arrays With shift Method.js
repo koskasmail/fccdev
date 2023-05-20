@@ -6,3 +6,4 @@ let removedFromMyArray = myArray.shift();
 
 console.log(myArray);
 console.log(removedFromMyArray);
+ 
