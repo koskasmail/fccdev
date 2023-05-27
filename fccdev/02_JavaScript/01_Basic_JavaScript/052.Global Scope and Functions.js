@@ -3,8 +3,7 @@ let myGlobal = 10;
 
 function fun1() {
   // Assign 5 to oopsGlobal here
-  myGlobal = 5;
-  console.log("myGlobal ===> " + myGlobal);
+  oopsGlobal = 5;
 }
 
 // Only change code above this line
