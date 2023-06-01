@@ -1,18 +1,11 @@
 
-
-/**
- * 
- */
 function clearAll() {
   console.log("clearAll")
-  // var fn =  document.getElementById('firstName').innerText = "";
-  var ln =  document.getElementById('lastName').innerText = "";
-  var phe = document.getElementById('phoneNumber').innerText = "";
+  var fn =  document.getElementById('firstName').value = "11";
+  var ln =  document.getElementById('lastName').value = "22";
+  var phe = document.getElementById('phoneNumber').value = "33";
 
-  var fn = document.getElementById("firstName");
-  fn.innerText = "666";
 }
-
 
 function printOneRecord() {
   console.log("test");
