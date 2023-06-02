@@ -3,7 +3,7 @@ function testGreaterOrEqual(val) {
     return "20 or Over";
   }
 
-  if (val > 10) {  // Change this line
+  if (val >= 10) {  // Change this line
     return "10 or Over";
   }
 
