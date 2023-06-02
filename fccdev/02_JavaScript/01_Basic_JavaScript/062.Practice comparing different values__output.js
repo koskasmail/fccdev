@@ -1,0 +1,4 @@
+//
+///----[output]------------
+// Not Equal
+// Equal
