@@ -6,4 +6,4 @@ function testEqual(val) {
   return "Not Equal";
 }
 
-testEqual(10);
+testEqual(10); 
