@@ -1,5 +1,5 @@
 //
 ///----[output]------------
 //
-// Birdie
-// Bogey
+// alpha
+// gamma
