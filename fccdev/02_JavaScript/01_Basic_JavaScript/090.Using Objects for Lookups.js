@@ -10,7 +10,7 @@ const lookup = {
   "delta":"Denver",
   "echo":"Easy",
   "foxtrot":"Frank",
-  "":"undefined",
+  "":undefined
 };
 
   result = lookup[val];
