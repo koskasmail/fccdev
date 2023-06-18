@@ -20,26 +20,33 @@ const recordCollection = {
   };
   
   // Only change code below this line
-  function updateRecords(records, id, prop, value) {
+  function updateRecords(records, id, properties, value) {
 
 
-    if ( (prop !== "tracks") && (value !== "") ) {
-        records[id][prop] = value;
+    if ( (properties !== "tracks") && (value !== "") ) {
+        records[id][properties] = value;
     } 
-    else if ((prop === "tracks") && (records[id].hasOwnProperty("tracks") === false) ) {
-        records[id][prop] = value;
+    else if ((properties === "tracks") && (records[id].hasOwnProperty("tracks") === false) ) {
+        records[id][properties] = value;
     }
-    else if (prop === "tracks" && value !== "") {
-            records[id][prop].push = value;
+    else if (properties === "tracks" && value !== "") {
+            records[id][properties].push = value;
     } 
     else if (value === "") {
-        delete records[id][prop];
+        delete records[id][properties];
     }
 
 
     return records;
   }
   
+  console.table(recordCollection);
+  
   updateRecords(recordCollection, 5439, 'artist', 'ABBA');
-   updateRecords(recordCollection, 5439, "tracks", "Take a Chance on Me");
+  console.table(recordCollection);
 
+  updateRecords(recordCollection, 5439, "tracks", "Take a Chance on Me");
+  console.table(recordCollection);
+
+  updateRecords(recordCollection, 1245, "tracks", "Addicted to Love")
+  console.table(recordCollection);
