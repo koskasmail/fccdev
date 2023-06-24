@@ -45,6 +45,8 @@ const recordCollection = {
   
   updateRecords(recordCollection, 5439, 'artist', 'ABBA');
   updateRecords(recordCollection, 5439, "tracks", "Take a Chance on Me");
+  updateRecords(recordCollection, 5439, "tracks", "The Winner");
+  updateRecords(recordCollection, 5439, "tracks", "Dancing queen");
   updateRecords(recordCollection, 2548, "artist", "");
   updateRecords(recordCollection, 2548, "tracks", "");
   updateRecords(recordCollection, 2548, "artist", "Shalom");
@@ -52,5 +54,6 @@ const recordCollection = {
   updateRecords(recordCollection, 2468, "tracks", "Free");
 
   updateRecords(recordCollection, 1245, "albumTitle", "Riptide");
-  
+
   console.table(recordCollection);
+  console.table(recordCollection[5439].tracks);
