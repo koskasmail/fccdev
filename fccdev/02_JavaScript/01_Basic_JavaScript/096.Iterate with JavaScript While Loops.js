@@ -5,7 +5,7 @@ const myArray = [];
 
 let index = 0;
 while (index < 5) {
-    myArray.push(index);
+    myArray.push(5 - index);
     index++;
 }
 
