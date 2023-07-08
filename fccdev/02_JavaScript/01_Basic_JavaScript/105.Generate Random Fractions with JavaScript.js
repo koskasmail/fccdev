@@ -8,3 +8,4 @@ function randomFraction() {
 }
 
 console.log(randomFraction());
+console.log(randomFraction());
