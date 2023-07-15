@@ -1,1 +1,6 @@
-continue
+//
+///----[output]------------
+// 
+// positive
+// negative
+// zero
