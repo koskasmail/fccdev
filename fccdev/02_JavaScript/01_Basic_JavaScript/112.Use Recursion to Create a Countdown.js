@@ -10,6 +10,12 @@ function countdown(n){
   }
 }
 
+
+/// ----[solution #2]----------------
+/// function countdown(n) {
+///  return n < 1 ? [] : [n].concat(countdown(n-1) );
+/// }
+
 console.log(countdown(5));
 console.log(countdown(10));
 console.log(countdown(12));
