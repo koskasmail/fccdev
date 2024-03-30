@@ -11,27 +11,13 @@
 xxxx
 ```
 
-### [ solution #1 ]
+### [ solution ]
 
 ```sh
 xxxx
 ```
 
-### [ output result #1 ]
-
-```sh
-xxxx
-```
-
------
-
-### [ solution #2 ]
-
-```sh
-xxxx
-```
-
-### [ output result #2 ]
+### [ output result ]
 
 ```sh
 xxxx
