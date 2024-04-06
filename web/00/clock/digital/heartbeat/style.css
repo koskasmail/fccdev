@@ -1,0 +1,43 @@
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.clock-container {
+    text-align: center;
+}
+
+.clock-construction {
+    position: relative;
+    display: inline-block;
+}
+
+
+.clock-construction img {
+    width: 200px;
+    /* Adjust size as needed */
+} 
+
+.clock-construction h1 {
+    font-family: Arial, sans-serif;
+    font-size: 84px;
+    color: #d10808;
+    margin-top: 20px;
+    animation: blink-animation 1s infinite alternate;
+}
+
+@keyframes blink-animation {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
