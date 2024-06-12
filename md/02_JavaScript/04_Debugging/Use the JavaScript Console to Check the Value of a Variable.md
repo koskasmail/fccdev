@@ -1,0 +1,78 @@
+<a name="topage"></a>
+
+# Use the JavaScript Console to Check the Value of a Variable
+
+### [ Notes ]
+  * The `console.log()` method prints the output of what's within its parentheses to the console.
+  * Using `console.log()` inside the code will give you a status of the program values and let you check if its your wanted result. 
+
+#### example #1
+
+```sh
+console.log('Hello world!');
+```
+
+#### output
+```sh
+Hello world!
+```
+
+#### example #2
+
+```sh
+let value = 11;
+console.log(value);
+```
+
+#### output
+```sh
+11
+```
+
+### [ Task ]
+  1. Use the `console.log()` method to print the value of the variable `a` where noted in the code.
+
+
+### [ before ]
+
+```sh
+let a = 5;
+let b = 1;
+a++;
+// Only change code below this line
+
+
+let sumAB = a + b;
+console.log(sumAB);
+```
+
+### [ solution ]
+
+```sh
+let a = 5;
+let b = 1;
+a++;
+// Only change code below this line
+console.log(a);
+
+let sumAB = a + b;
+console.log(sumAB);
+```
+
+### [ output result ]
+
+```sh
+6
+7
+```
+
+-----
+
+### [ Thoughts ]
+
+  1. Using `console.log()` to find current value status. 
+  
+
+<p align="right">(<a href="#topage">back to top</a>)</p>
+<br/>
+<br/>
