@@ -22,6 +22,7 @@ Welcome to freeCodeCamp
 ### step #3
 ```
 <h1>Welcome to freeCodeCamp</h1>
+Full Stack Curriculum
 ```
 
 -----
@@ -38,6 +39,8 @@ Welcome to freeCodeCamp
 ### step #5: 
 
 ```
+<h1>Welcome to freeCodeCamp</h1>
+<h2>Full Stack Curriculum</h2>
 Learn the skills to become a full stack developer
 ```
 
@@ -72,8 +75,7 @@ Learn the skills to become a full stack developer
 <p>Learn the skills to become a full stack developer</p>
 
 <h3>Introduction to HTML</h3>
-<p>HTML represents the content and structure of a webpage
-</p>
+<p>HTML represents the content and structure of a webpage</p>
 ```
 
 -----
@@ -111,42 +113,18 @@ Learn the skills to become a full stack developer
 ### step #11: 
 
 ```
-```
+<h1>Welcome to freeCodeCamp</h1>
+<h2>Full Stack Curriculum</h2>
+<p>Learn the skills to become a full stack developer</p>
 
------
+<h3>Introduction to HTML</h3>
+<p>HTML represents the content and structure of a webpage</p>
 
-### step #12: 
+<h3>Introduction to CSS</h3>
+<p>CSS is used to style a webpage</p>
 
-```
-```
-
------
-
-### step #13: 
-
-```
-```
-
------
-
-### step #14: 
-
-```
-```
-
------
-
-### step #14: 
-
-```
-```
-
-
------
-
-### step #15: 
-
-```
+<h3>Introduction to JavaScript</h3>
+<p>JavaScript adds interactivity to a webpage</p>
 ```
 
 -----
