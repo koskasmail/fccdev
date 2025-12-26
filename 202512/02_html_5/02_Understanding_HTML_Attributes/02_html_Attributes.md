@@ -31,11 +31,7 @@
 ```
 
 ### full example:
-```
-<a href="https://links.html/" target="_blank">Visit freeCodeCamp</a>
-<h5>not-checked <input type="checkbox" /> </h5>
-<ht>checked<input type="checkbox" checked /></h5
-```
+* [02_html_Attributes.html](https://koskasmail.github.io/fccdev/202512/02_html_5/02_Understanding_HTML_Attributes/02_html_Attributes.html)
 
 ### [ Q&A ]
 
