@@ -125,16 +125,16 @@ console.log(big + 10n); // BigInt math
 ### [ Q&A ]
 
 #### Q1: 
-* Q: 
-* A: 
+* Q: Which of the following is a string data type?
+* A: "Hello!"
 
 #### Q2: 
-* Q: 
-* A: 
+* Q: What data type represents a value that is either true or false?
+* A: Boolean
 
 #### Q3
-* Q: 
-* A: 
+* Q: If a variable has been declared but not assigned a value, what is its data type?
+* A: Undefined
 
 
 -----
